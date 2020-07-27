@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let targetStr = "1234567"
+        let targetStr = "01234567"
         
         print("32位小写加密：" + targetStr.DDMD5Encrypt())
 
